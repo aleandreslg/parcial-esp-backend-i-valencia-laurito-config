@@ -9,9 +9,7 @@ spring:
       version: 4.0.2
   data:
     mongodb:
-      username: usr-serie-mongo
-      password: pwd-serie-mongo
-      database: serie-dev-mongo
+      database: test
       port: 27017
 #    jpa:
 #      hibernate.ddl-auto: update
