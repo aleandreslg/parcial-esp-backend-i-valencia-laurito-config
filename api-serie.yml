@@ -11,10 +11,10 @@ spring:
     mongodb:
       database: test
       port: 27017
-#    jpa:
-#      hibernate.ddl-auto: update
-#      generate-ddl: true
-#      show-sql: true
+    jpa:
+      hibernate.ddl-auto: update
+      generate-ddl: true
+      show-sql: true
 
 info:
   application:
