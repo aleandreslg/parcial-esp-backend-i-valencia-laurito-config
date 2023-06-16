@@ -13,10 +13,10 @@ spring:
       password: pwd-serie-mongo
       database: serie-dev-mongo
       port: 27017
-    jpa:
-      hibernate.ddl-auto: update
-      generate-ddl: true
-      show-sql: true
+#    jpa:
+#      hibernate.ddl-auto: update
+#      generate-ddl: true
+#      show-sql: true
 
 info:
   application:
