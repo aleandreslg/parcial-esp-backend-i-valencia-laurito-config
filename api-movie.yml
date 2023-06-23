@@ -22,6 +22,11 @@ spring:
         dialect: org.hibernate.dialect.MySQL55Dialect
         format_sql: true
     show-sql: false
+    rabbitmq:
+      username: guest
+      password: guest
+      host: localhost
+      port: 5672
 
   eureka:
     instance:
