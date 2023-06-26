@@ -64,7 +64,7 @@ resilience4j:
     instances:
       findByGenre:
         base-config: default
-        sliding-window-type: COUNT_BASED
+        sliding-window-type: TIME_BASED
         sliding-window-size: 5
         wait-duration-in-open-state: 1m
         failure-rate-threshold: 20
